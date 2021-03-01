@@ -6,7 +6,8 @@
 }
 .player img{
     width:200px;
-    height: 150px
+    height: 150px;
+    margin-top:15px;
 }
 .add-btn{
     background-color: goldenrod;

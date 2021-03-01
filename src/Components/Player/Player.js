@@ -15,15 +15,18 @@ const Player = (props) => {
         <Card style={{ width: '25rem' }}>
             <Card.Body>
             <div className="player">
-                <Card.Title>Player Name: {name}</Card.Title>
+                <Card.Title variant="success">{name}</Card.Title>
                 <img src={img} alt=""/>
                      
+                <Card.Text>
+                <h5>Club : {team}</h5>
                 <h5>Club : {team}</h5>
                 <h5>Salary : {salary}</h5>
                 <h5>Transfer Rate : {transfer}</h5>
                 <h5>Origin Nation : {nation}</h5>
+                </Card.Text>
 
-                <Button variant="primary" className="add-btn" onClick={()=>handleAddPlayer(props.player)}>
+                <Button className="add-btn" onClick={()=>handleAddPlayer(props.player)}>
                 <FontAwesomeIcon icon={faUser} />+ Add in the List
                 </Button>
 
