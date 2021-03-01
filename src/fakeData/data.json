@@ -1,0 +1,121 @@
+[{
+    "id": 1,
+    "name": "Lionel Messi",
+    "team": "Barcelona",
+    "salary": 16029,
+    "transfer": 17676,
+    "nation": "Argentina",
+    "img": "https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/FC-Barcelona-v-Real-Betis---La-Liga-Santander-3dd2822d9907d1b84582a774a30b8c2c.jpg"
+  }, {
+    "id": 2,
+    "name": "Dani Alves",
+    "team": "Barcelona",
+    "salary": 22139,
+    "transfer": 17358,
+    "nation": "Brazil",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/d/dd/07_07_2019_Final_da_Copa_Am%C3%A9rica_2019_%2848226649586%29_%28cropped%29.jpg"
+  }, {
+    "id": 3,
+    "name": "Gerard Piqué",
+    "team": "Barcelona",
+    "salary": 15724,
+    "transfer": 11604,
+    "nation": "Bangladesh",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Gerard_Piqu%C3%A9_2017.jpg"
+  }, {
+    "id": 4,
+    "name": "Pedro",
+    "team": "Barcelona",
+    "salary": 15898,
+    "transfer": 15663,
+    "nation": "Spain",
+    "img": "https://resources.premierleague.com/premierleague/photos/players/250x250/p49579.png"
+  }, {
+    "id": 5,
+    "name": "David Villa",
+    "team": "Barcelona",
+    "salary": 11100,
+    "transfer": 16027,
+    "nation": "Spain",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Spain-Tahiti%2C_Confederations_Cup_2013_%2802%29_%28Villa_crop%29.jpg"
+  }, {
+    "id": 6,
+    "name": "Sergi Roberto",
+    "team": "Barcelona",
+    "salary": 19349,
+    "transfer": 17914,
+    "nation": "Spain",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0OLcVKy994WsnSVTE3txzC-MwlPP-0va8tw&usqp=CAU"
+  }, {
+    "id": 7,
+    "name": "Neymar",
+    "team": "Barcelona",
+    "salary": 13583,
+    "transfer": 11308,
+    "nation": "Brazil",
+    "img": "https://i.guim.co.uk/img/media/27fe8418a3ee15e91b0d170e7a104eb6f04255d6/0_153_2560_1536/master/2560.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=6ac60c5f9a4856ecbb2128f3122c092f"
+  }, {
+    "id": 8,
+    "name": "Luis Suárez",
+    "team": "Barcelona",
+    "salary": 22243,
+    "transfer": 13942,
+    "nation": "Urugay",
+    "img": "https://www.thestatesman.com/wp-content/uploads/2020/01/Luis-Suarez-Barcelona-vs-SD-Huesca.jpg"
+  }, {
+    "id": 9,
+    "name": "Paolo Maldini",
+    "team": "AC Milan",
+    "salary": 10909,
+    "transfer": 14255,
+    "nation": "Italy",
+    "img": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202003/maldini22032020.jpeg?.NwDejXkpV3_AL8HwXKs3FlSdyZtwXaZ&size=770:433"
+  }, {
+    "id": 10,
+    "name": "Gareth Bale",
+    "team": "Real Madrid",
+    "salary": 22872,
+    "transfer": 10920,
+    "nation": "Wales",
+    "img": "https://e0.365dm.com/21/02/768x432/skysports-gareth-bale-tottenham_5275676.jpg"
+  }, {
+    "id": 11,
+    "name": "James Rodríguez",
+    "team": "Real Madrid",
+    "salary": 14166,
+    "transfer": 22723,
+    "nation": "Colombia",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2OSOqEf3eOSF4uiWq_1kKiDzHf0ZZm3Oj0Q&usqp=CAU"
+  }, {
+    "id": 12,
+    "name": "Cristiano Ronaldo",
+    "team": "Juventus",
+    "salary": 14207,
+    "transfer": 10275,
+    "nation": "Portugal",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-7340c90Q0GqKDwOOHdQ90_Okg4XHIrNi6g&usqp=CAU"
+  }, {
+    "id": 13,
+    "name": "Gonzalo Higuaín",
+    "team": "Real madrdid",
+    "salary": 17114,
+    "transfer": 21741,
+    "nation": "Argentina",
+    "img": "https://cdn.vox-cdn.com/thumbor/F4lIy9rZ0YcvM5AlnJmodQlr4X0=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/21848997/958800610.jpg.jpg"
+  }, {
+    "id": 14,
+    "name": "Kaka",
+    "team": "Real madrdid",
+    "salary": 17282,
+    "transfer": 18698,
+    "nation": "Brazil",
+    "img": "https://2.bp.blogspot.com/-84vy_PwFhHE/TbGNJzwgijI/AAAAAAAAAk4/utlPcCpAqKQ/w1200-h630-p-k-no-nu/ricardo-kaka-brasil.jpg"
+  }, {
+    "id": 15,
+    "name": "Ronaldo",
+    "team": "Real Madrid",
+    "salary": 15910,
+    "transfer": 10270,
+    "nation": "Brazil",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6kcur8AcwKnQSzsdDSvYo_1_TqJqfSI-g3w&usqp=CAU"
+  }]
