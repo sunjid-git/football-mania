@@ -26,15 +26,12 @@ function App() {
   return (
     <div className="App">
         <h1>Football Mania</h1>
-        <h4>Total Listed Player: {players.length}</h4>
-       
-        
+        <h4>Listed Players: {players.length}</h4>
         <Cart cart={cart}></Cart>
-        {
-          players.map(player => <Player player={player} handleAddPlayer={handleAddPlayer} key={player.id}> </Player>)
-        }
         
-
+        {
+          players.map(player => <button> <Player player={player} handleAddPlayer={handleAddPlayer} key={player.id}> </Player> </button>  )
+        }
     </div>
   );
 }

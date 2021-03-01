@@ -1,6 +1,6 @@
 import React from 'react';
 import './Cart.css'
-import { Card} from 'react-bootstrap';
+import { Card,ListGroup} from 'react-bootstrap';
 const Cart = (props) => {
     const cart = props.cart;
 
@@ -9,22 +9,18 @@ const Cart = (props) => {
 
     return (
 
-        <Card className="col-md-4">
-
-                <h5>Added Player: {cart.length}</h5>
-                {/* <ol className="list-group"> */}
-                {
-                    cart.map(player => <button> {player.name} ${player.salary} ${player.transfer}</button> )
-                }
-                {/* </ol> */}
-
-                <h5> Total Salary: {totalSalary}</h5>
-                <h5> Total Transfer Cost: {totalTransferRate}</h5>
-
-        
+        <Card >
+          
+                    
+            <button className="total-amount"> Total Salary: ${totalSalary}</button>
+            <button className="total-amount">Total Transfer Cost:  ${totalTransferRate}</button>
+            <h5>Added Players: {cart.length}</h5>
+            {
+                cart.map(player =>
+                     <p> {player.name} - Salary: ${player.salary} - Transfer rate: ${player.transfer} </p>
+                     )
+            } 
         </Card>
-
-        
     );
 };
 

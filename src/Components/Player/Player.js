@@ -15,15 +15,13 @@ const Player = (props) => {
         <Card style={{ width: '25rem' }}>
             <Card.Body>
             <div className="player">
-                <Card.Title variant="success">{name}</Card.Title>
-                <img src={img} alt=""/>
-                     
+                    <h3>{name}</h3>
+                    <img src={img} alt=""/> 
                 <Card.Text>
-                <h5>Club : {team}</h5>
-                <h5>Club : {team}</h5>
-                <h5>Salary : {salary}</h5>
-                <h5>Transfer Rate : {transfer}</h5>
-                <h5>Origin Nation : {nation}</h5>
+                    <h5>Club : {team}</h5>
+                    <h5>Salary : {salary}</h5>
+                    <h5>Transfer Rate : {transfer}</h5>
+                    <h5>Nation : {nation}</h5>
                 </Card.Text>
 
                 <Button className="add-btn" onClick={()=>handleAddPlayer(props.player)}>
