@@ -1,11 +1,12 @@
 .player{
-    border:2px solid lightgray;
-    margin:2px;
-    width: 300px;
+    margin:5px;
+    padding: 10px;
+   background-color: rgb(213, 201, 201);
    
 }
 .player img{
-    width:250px;
+    width:200px;
+    height: 150px
 }
 .add-btn{
     background-color: goldenrod;

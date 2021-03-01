@@ -2,21 +2,37 @@ import React from 'react';
 import './Player.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
+
+import { Card,Button } from 'react-bootstrap';
+
 const Player = (props) => {
 
     const {img,name,team,salary,transfer,nation} = props.player;
     const handleAddPlayer = props.handleAddPlayer;
     return (
-        <div className="player">
-            <img src={img}/>
-            <h5>Player name: {name}</h5>
-            <h5>Current Team :{team}</h5>
-            <h5>Salary/Month : {salary}</h5>
-            <h5>Transfer Rate : {transfer}</h5>
-            <h5>Origin Nation : {nation}</h5>
-            <button className="add-btn" onClick={()=>handleAddPlayer(props.player)}>
-             <FontAwesomeIcon icon={faUser} />+ Add in the List</button>
-        </div>
+
+
+        <Card style={{ width: '25rem' }}>
+            <Card.Body>
+            <div className="player">
+                <Card.Title>Player Name: {name}</Card.Title>
+                <img src={img} alt=""/>
+                     
+                <h5>Club : {team}</h5>
+                <h5>Salary : {salary}</h5>
+                <h5>Transfer Rate : {transfer}</h5>
+                <h5>Origin Nation : {nation}</h5>
+
+                <Button variant="primary" className="add-btn" onClick={()=>handleAddPlayer(props.player)}>
+                <FontAwesomeIcon icon={faUser} />+ Add in the List
+                </Button>
+
+            </div>
+            </Card.Body>
+        </Card>
+
+       
+
     );
 };
 

@@ -25,7 +25,11 @@ function App() {
   return (
     <div className="App">
 
-        <h1>Football Mania</h1>
+   
+
+
+
+        <h1 >Football Mania</h1>
    
         <h4>Total Listed Player: {players.length}</h4>
         <h5>Added Player: {cart.length}</h5>
