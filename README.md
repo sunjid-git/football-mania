@@ -1,5 +1,7 @@
 # Getting Started with Create React App
-[live]()
+[live](https://competent-beaver-ae75a0.netlify.app/)
+
+## Project Information
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
